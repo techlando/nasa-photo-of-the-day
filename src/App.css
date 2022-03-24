@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  /* display: flex;
+  
+  justify-content: space-evenly; */
+  
 }
 
 .App-logo {
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nasa-photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explanation {
+  max-width: 70%;
+}
+img {
+  max-width: 60%;
+  object-fit: cover;
 }
